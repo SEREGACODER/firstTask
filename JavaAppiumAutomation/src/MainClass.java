@@ -1,9 +1,11 @@
 public class MainClass
 {
+ private String class_string = "Hello, n-word";
 
-        public int getLocalNumber()
+        public String getClassString()
         {
-           return 14;
+            String public_class_string = class_string;
+           return class_string;
         }
 
 }

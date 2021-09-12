@@ -4,8 +4,9 @@ import org.junit.Test;
 public class MainClassTest extends MainClass{
 
     @Test
-    public void testGetLocalNumber()
+    public void testGetClassString()
     {
-        Assert.assertTrue("getLocalNumber does not return 14",getLocalNumber() == 14);
+        Assert.assertTrue("getClassString does not has normal greetings",
+                getClassString().contains("Hello") || getClassString().contains("hello"));
     }
 }
